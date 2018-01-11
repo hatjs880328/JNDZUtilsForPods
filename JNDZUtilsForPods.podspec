@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
   s.name         = 'JNDZUtilsForPods'
 
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
 
   s.summary      = 'Aof JNDZUtilsForPods.'
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => 'https://github.com/hatjs880328/JNDZUtilsForPods.git', :tag => s.version }
 
-  #s.source_files = 'Source/**/*'
+  s.source_files = 'Source/**/*'
 
   s.ios.deployment_target = '8.0'
 
